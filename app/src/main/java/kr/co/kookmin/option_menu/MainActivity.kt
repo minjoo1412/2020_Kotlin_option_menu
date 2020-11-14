@@ -13,12 +13,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        //menuInflater.inflate(R.menu.main_menu,menu)
+        menuInflater.inflate(R.menu.main_menu,menu)
 
 
-        menu?.add(Menu.NONE, Menu.FIRST, Menu.NONE, "코드메뉴1")
-        menu?.add(Menu.NONE, Menu.FIRST + 1, Menu.NONE, "코드메뉴2")
-        menu?.add(Menu.NONE, Menu.FIRST + 2, Menu.NONE, "코드메뉴3")
+//        menu?.add(Menu.NONE, Menu.FIRST, Menu.NONE, "코드메뉴1")
+//        menu?.add(Menu.NONE, Menu.FIRST + 1, Menu.NONE, "코드메뉴2")
+//        menu?.add(Menu.NONE, Menu.FIRST + 2, Menu.NONE, "코드메뉴3")
         return true
     }
 
